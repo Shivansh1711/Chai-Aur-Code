@@ -67,3 +67,13 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+function addOne(num1){
+    return num1 + 1
+}
+console.log(addOne(10))
+
+const addTwo = function(num1){
+    return num1 + 2
+}
+console.log(addTwo(10))
