@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation</title>
+    <style>
+        .bg-color{
+            background-color: #161515;
+            color: #fdfdfd;
+        }
+    </style>
+</head>
+<body class = "bg-color">
+    <div>
+        <h1 id = "title" class = "heading">Dom learning by Manipulation</h1>
+        <p class = "para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quasi!</p>
+    </div>
+    <!-- Dom manipulation by ID : document.getElementById("title").innerHTML = "DOM"
+         Dom manipulation by class : document.querySelector(".heading").innerHTML = "DOM"
+         Dom manipulation by tag name : document.querySelector("h1").innerHTML = "DOM" 
+         document.getElementById("title").getAttribute("id")
+         document.getElementById("title").setAttribute("class", "heading1")
+         
+         document.getElementById("title").style.padding = "15px"
+
+         const title = document.getElementById("title")
+         title.style.color = "red"
+         
+         title.innerHTML     (Display all values including tags)
+         title.innerText    (Displays value which is visible to browser)
+         title.textContent  (Also, display values which are not directly visible but hidden through styling or css)
+
+         querySelector will always choose first element
+         document.querySelectorAll("h1")     (it will select all the h1 tag and return them in a nodelist)
+         document.querySelectorAll("h1")     (u can't directly apply css on on all, either use indexing or foreach)
+         document.querySelectorAll("h1").forEach(function(item){
+                item.style.color = "red"
+         })
+         -->
+</body>
+</html>
